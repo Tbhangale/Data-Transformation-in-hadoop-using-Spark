@@ -1,11 +1,13 @@
 # Execute Scala program in Spark 
 
-Example: retail_db dataset. Join hive external tables using Spark with Scala as programming language. 
-Develop a scala program in IntelliJ, create a jar file and run the jar file in spark using spaark-submit. 
-Uploaded scala program and build.sbt for this project.
+### Example Scenario:  \
+From retail_db dataset, join hive external tables (Products, Categories, Departments) using Spark with Scala as programming language. \
+Develop a scala program in IntelliJ, create a jar file and run the jar file in spark using spaark-submit. \
+Uploaded scala program for joining above mentioned 3 tables and build.sbt for this project.
 
+### Execution steps:
 1. Write a program in scala using IntelliJ
-in build.sbt file, add relevant libraryDependencies
+Add relevant libraryDependencies in build.sbt file
 To provide arguments to your program => select scala file => Run - Edit configurations - Defualts - Application - Program Arguments(space seperated)
 Run your program to check if it correct
 
