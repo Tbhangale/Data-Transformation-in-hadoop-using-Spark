@@ -1,6 +1,6 @@
 # Execute Scala program in Spark 
 
-### Example Scenario:  \
+### Example Scenario:  
 From retail_db dataset, join hive external tables (Products, Categories, Departments) using Spark with Scala as programming language. \
 Develop a scala program in IntelliJ, create a jar file and run the jar file in spark using spaark-submit. \
 Uploaded scala program for joining above mentioned 3 tables and build.sbt for this project.
